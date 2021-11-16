@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend that supports the Frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./serve/www",
+    "dev": "nodemon ./serve/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.1",
+    "node-geocoder": "^3.27.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
